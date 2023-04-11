@@ -52,6 +52,7 @@ h2:hover {
 
 ul {
     display: flex;
+    text-decoration: none;
     list-style-type: none;
     align-items: center;
 }
@@ -62,7 +63,11 @@ li {
     font-size: 20pt;
     cursor: pointer;
     color: #c7c7c7;
-    transition: 0.3s
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
 }
 
 li:hover {
@@ -113,7 +118,7 @@ button:hover {
 
 .left-side {
     display: flex;
-    position: absolute;
+    position: relative;
     margin-left: 100px;
 }
 
@@ -125,18 +130,21 @@ h1 {
     text-align: initial;
 }
 
+h3 {
+    font-size: 20pt;
+}
+
 .right-side {
-    position: absolute;
+    position: relative;
     width: 459px;
-    height: 230px;
     left: 747px;
-    top: 290px;
+    margin-top: -250px;
 }
 
 .description {
     display: flex;
     position: relative;
-    top: 400px;
+    top: 100px;
     width: 85%;
     align-items: center;
     align-content: center;
@@ -144,16 +152,23 @@ h1 {
 }
 
 .readMore {
+    z-index: 10;
     position: relative;
     width: 200px;
     height: 80px;
-    background-color: #ff1d1d;
-    color: #fff;
-    font-size: 17pt;
-    font-weight: 700;
-    top: 400px;
-    padding: 20px;
-    border-radius: 50px;
+    top: 100px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: .3s;
+    margin-bottom: 200px;
+}
+
+.readMore:hover {
+    filter: blur(2px);
+    background-color: #720000;
+    width: 200px;
+    height: 80px;
+    transition: .3s;
 }
 
 .description p {
@@ -161,6 +176,20 @@ h1 {
     font-size: 15pt;
     color: #c7c7c7;
     margin-bottom: 100px;
+}
+
+.decorator {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.decorator .decorator1 img {
+    left: 0;
+}
+
+.decorator .decorator2 img {
+    right: 0;
 }
 
 ::-webkit-scrollbar {
@@ -179,4 +208,6 @@ h1 {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #610000;
   }
+
+
   
