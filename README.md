@@ -1,7 +1,7 @@
 
 # Trabalho APS de Programação Web Responsiva
 
-## Alunos: Nathan Douglas Pinaffi
+## Alunos: Nathan Douglas Pinaffi | Diogo Gonçalves Siscati
 
 Este projeto foi desenvolvido para a matéria de Programação Web Responsiva do Curso Superior de Ciência da Computação da Universidade Paulista (UNIP).
 
