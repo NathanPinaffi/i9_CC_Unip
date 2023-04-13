@@ -186,6 +186,25 @@ h3 {
 
 .whatis {
     margin-top: 100px;
+    justify-content: space-between;
+
+}
+
+.whatis p {
+    position: relative;
+    margin-top: -200px;
+    width: 50%;
+    text-align: justify;
+    left: 500px;
+    font-size: 20pt;
+}
+
+.whatis img {
+    position: relative;
+    width: 312px;
+    height: 326.8px;
+    left: -480px;
+    top: 103px;
 }
 
 ::-webkit-scrollbar {
