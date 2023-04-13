@@ -131,7 +131,16 @@ h1 {
 }
 
 h3 {
-    font-size: 45pt;
+    font-size: 47pt;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 20pt;
+    font-weight: 400;
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
 }
 
 .right-side {
@@ -158,22 +167,21 @@ h3 {
     height: 80px;
     top: 100px;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 60px;
     transition: .3s;
     margin-bottom: 200px;
 }
 
 .readMore:hover {
-    filter: blur(2px);
     background-color: #720000;
-    width: 200px;
-    height: 80px;
+    width: 250px;
+    height: 100px;
     transition: .3s;
 }
 
 .description p {
     text-align: justify;
-    font-size: 15pt;
+    font-size: 20pt;
     color: #c7c7c7;
     margin-bottom: 100px;
 }
@@ -185,18 +193,21 @@ h3 {
 }
 
 .whatis {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-top: 100px;
     justify-content: space-between;
-
+    margin-bottom: 200px;
 }
 
 .whatis p {
     position: relative;
-    margin-top: -200px;
-    width: 50%;
+    margin-top: -260px;
+    width: 57%;
     text-align: justify;
     left: 500px;
-    font-size: 20pt;
+    font-size: 22pt;
 }
 
 .whatis img {
@@ -204,7 +215,16 @@ h3 {
     width: 312px;
     height: 326.8px;
     left: -480px;
-    top: 103px;
+    top: 53px;
+}
+
+.knowMoreAbout h3 {
+    font-size: 30pt;
+    margin-bottom: 0px;
+}
+
+.knowMoreAbout img {
+    left: 10%;
 }
 
 ::-webkit-scrollbar {
