@@ -16,11 +16,13 @@
     overflow-x: hidden;
 }
 
+.container p {
+    margin: 50px 0 50px 0;
+}
+
 .header {
     display: flex;
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 30px 20px 30px;
     max-width: 100%;
 }
 
@@ -121,11 +123,12 @@ button:hover {
 }
 
 h1 {
-    font-size: 60pt;
+    font-size: 55pt;
     width: 621px;
     height: 309px;
     line-height: 103px;
     text-align: initial;
+    line-height: 120%;
 }
 
 h3 {
@@ -146,6 +149,7 @@ h4 {
     width: 459px;
     left: 747px;
     margin-top: -250px;
+    background: transparent;
 }
 
 .description {
@@ -182,6 +186,49 @@ h4 {
     font-size: 20pt;
     color: #c7c7c7;
     margin-bottom: 100px;
+}
+
+.right-side .brainAtom {
+    background: transparent;
+    margin-left: -340px;
+}
+
+.left-side .descriptionProducts p {
+    margin: 80px 0 0 0;
+    position: absolute;
+    z-index: 10;
+    right: 200px;
+    top: 250px;
+    width: 600px;
+    left: 0;
+    text-align: justify;
+    color: #bbbbbb;
+}
+
+.listItems ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: -750px 0 200px 0;
+}
+
+.listItems li {
+    list-style: inside;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.studyWithUs p {
+    font-size: 20pt;
+}
+
+.main-second .imageBrain img {
+    background: transparent;
+}
+
+.main-second {
+    display: flex;
+    margin-top: -100px;
 }
 
 .decorator {
