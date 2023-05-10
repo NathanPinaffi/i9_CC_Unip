@@ -144,6 +144,48 @@ h4 {
     margin-left: 5%;
 }
 
+h5 {
+    font-size: 36pt;
+}
+
+h6 {
+    margin: 50px auto 50px auto;
+    font-size: 24pt;
+}
+
+.form input {
+    display: flex;
+    margin-top: 50px;
+    width: 40%;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 50px auto 50px auto;
+    color: #fff;
+}
+
+.form input:hover {
+    color: #fff;
+    background-color: #971818;
+    transition: 0.4s;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+}
+
+.loginPrinciple {
+    margin: 50px auto 100px auto;
+    width: 300px;
+    height: 50px;
+}
+
 .right-side {
     position: relative;
     width: 459px;
@@ -223,12 +265,14 @@ h4 {
 }
 
 .main-second .imageBrain img {
+    width: 900px;
+    height: 900px;
     background: transparent;
+    margin-left: -500px;
 }
 
 .main-second {
-    display: flex;
-    margin-top: -100px;
+    margin-top: -200;
 }
 
 .decorator {
@@ -274,6 +318,10 @@ h4 {
     margin-bottom: 20px;
 }
 
+.footer{
+    margin-top: 200px;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
   }
@@ -290,6 +338,3 @@ h4 {
   ::-webkit-scrollbar-thumb:hover {
     background-color: #610000;
   }
-
-
-  
